@@ -1,5 +1,5 @@
 import vuePlugin from '@vitejs/plugin-vue'
-import { defineConfig } from 'vite'
+import { defineConfig } from '@voidzero-dev/vite-plus'
 
 export default defineConfig({
   css: {

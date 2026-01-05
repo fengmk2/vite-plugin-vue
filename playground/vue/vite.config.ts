@@ -1,5 +1,5 @@
 import { resolve } from 'node:path'
-import { defineConfig } from 'vite'
+import { defineConfig } from '@voidzero-dev/vite-plus'
 import vuePlugin from '@vitejs/plugin-vue'
 import { vueI18nPlugin } from './CustomBlockPlugin'
 

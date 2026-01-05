@@ -11,16 +11,16 @@ import type {
   Rollup,
   UserConfig,
   ViteDevServer,
-} from 'vite'
+} from '@voidzero-dev/vite-plus'
 import {
   build,
   createServer,
   loadConfigFromFile,
   mergeConfig,
   preview,
-} from 'vite'
+} from '@voidzero-dev/vite-plus'
 import type { Browser, Page } from 'playwright-chromium'
-import { beforeAll } from 'vitest'
+import { beforeAll } from '@voidzero-dev/vite-plus/test'
 
 // #region env
 
@@ -73,7 +73,7 @@ export let browser: Browser = undefined!
 export let viteTestUrl: string = ''
 export let watcher: Rollup.RollupWatcher | undefined = undefined
 
-declare module 'vite' {
+declare module '@voidzero-dev/vite-plus' {
   interface InlineConfig {
     testConfig?: {
       // relative base output use relative path

@@ -1,6 +1,6 @@
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { expect, test, vi } from 'vitest'
+import { expect, test, vi } from '@voidzero-dev/vite-plus/test'
 import { port } from './serve'
 import {
   browserLogs,

@@ -1,7 +1,7 @@
 import path from 'node:path'
-import type { Rollup } from 'vite'
-import { build } from 'vite'
-import { describe, expect, test } from 'vitest'
+import type { Rollup } from '@voidzero-dev/vite-plus'
+import { build } from '@voidzero-dev/vite-plus'
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test'
 
 describe('vue component library', () => {
   test('should output tree shakeable css module code', async () => {

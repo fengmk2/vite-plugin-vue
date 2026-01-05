@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from '@voidzero-dev/vite-plus'
 import createConfig from './vite.config.js'
 
 export default defineConfig((env) => {

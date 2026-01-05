@@ -1,5 +1,5 @@
 import path from 'node:path'
-import { defineConfig } from 'vite'
+import { defineConfig } from '@voidzero-dev/vite-plus'
 
 export default defineConfig({
   root: __dirname,

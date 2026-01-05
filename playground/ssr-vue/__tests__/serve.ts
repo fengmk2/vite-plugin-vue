@@ -3,7 +3,7 @@
 
 import path from 'node:path'
 import kill from 'kill-port'
-import type { ViteDevServer } from 'vite'
+import type { ViteDevServer } from '@voidzero-dev/vite-plus'
 import { hmrPorts, isBuild, ports, rootDir } from '~utils'
 
 export const port = ports['ssr-vue']

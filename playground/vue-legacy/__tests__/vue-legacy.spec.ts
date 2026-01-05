@@ -1,4 +1,4 @@
-import { expect, test } from 'vitest'
+import { expect, test } from '@voidzero-dev/vite-plus/test'
 import { getBg } from '~utils'
 
 test('vue legacy assets', async () => {

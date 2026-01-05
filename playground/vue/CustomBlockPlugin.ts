@@ -1,4 +1,4 @@
-import type { Plugin } from 'vite'
+import type { Plugin } from '@voidzero-dev/vite-plus'
 
 export const vueI18nPlugin: Plugin = {
   name: 'vue-i18n',

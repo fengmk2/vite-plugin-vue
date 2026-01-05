@@ -1,6 +1,6 @@
 import { URL } from 'node:url'
-import { describe, expect, test } from 'vitest'
-import * as vite from 'vite'
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test'
+import * as vite from '@voidzero-dev/vite-plus'
 import {
   extractSourcemap,
   formatSourcemapForSnapshot,
