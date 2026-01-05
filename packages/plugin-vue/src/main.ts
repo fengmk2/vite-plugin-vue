@@ -7,7 +7,7 @@ import { TraceMap, eachMapping } from '@jridgewell/trace-mapping'
 import type { EncodedSourceMap as GenEncodedSourceMap } from '@jridgewell/gen-mapping'
 import { addMapping, fromMap, toEncodedMap } from '@jridgewell/gen-mapping'
 import type { Rollup } from 'vite'
-import { normalizePath, transformWithEsbuild } from 'vite'
+import { normalizePath, transformWithOxc } from 'vite'
 import {
   createDescriptor,
   getDescriptor,
@@ -264,42 +264,20 @@ export async function transformMain(
     /tsx?$/.test(lang) &&
     !descriptor.script?.src // only normal script can have src
   ) {
-    // @ts-ignore Rolldown-specific
-    const { transformWithOxc } = await import('vite')
-    if (transformWithOxc) {
-      const { code, map } = await transformWithOxc(
-        resolvedCode,
-        filename,
-        {
-          // #430 support decorators in .vue file
-          // target can be overridden by oxc config target
-          // @ts-ignore Rolldown-specific
-          ...options.devServer?.config.oxc,
-          lang: 'ts',
-          sourcemap: options.sourceMap,
-        },
-        resolvedMap,
-      )
-      resolvedCode = code
-      resolvedMap = resolvedMap ? (map as any) : resolvedMap
-    } else {
-      const { code, map } = await transformWithEsbuild(
-        resolvedCode,
-        filename,
-        {
-          target: 'esnext',
-          charset: 'utf8',
-          // #430 support decorators in .vue file
-          // target can be overridden by esbuild config target
-          ...options.devServer?.config.esbuild,
-          loader: 'ts',
-          sourcemap: options.sourceMap,
-        },
-        resolvedMap,
-      )
-      resolvedCode = code
-      resolvedMap = resolvedMap ? (map as any) : resolvedMap
-    }
+    const { code, map } = await transformWithOxc(
+      resolvedCode,
+      filename,
+      {
+        // #430 support decorators in .vue file
+        // target can be overridden by oxc config target
+        ...options.devServer?.config.oxc,
+        lang: 'ts',
+        sourcemap: options.sourceMap,
+      },
+      resolvedMap,
+    )
+    resolvedCode = code
+    resolvedMap = resolvedMap ? (map as any) : resolvedMap
   }
 
   return {

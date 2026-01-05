@@ -15,7 +15,7 @@ export default defineConfig({
       // Set as "style" to match Vite 5 for testing purposes.
       cssFileName: 'style',
     },
-    rollupOptions: {
+    rolldownOptions: {
       external: ['vue'],
       output: {
         globals: { vue: 'Vue' },
