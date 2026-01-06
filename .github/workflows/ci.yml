@@ -96,7 +96,7 @@ jobs:
         run: pnpm exec vite cache clean && pnpm run test-build
 
       - name: Typecheck
-        run: pnpm run typecheck || true
+        run: pnpm run typecheck
 
       # - name: Setup rolldown-vite
       #   run: |
