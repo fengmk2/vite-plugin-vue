@@ -7,8 +7,8 @@ settings:
 catalogs:
   default:
     '@voidzero-dev/vite-plus':
-      specifier: latest
-      version: 0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7
+      specifier: 0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3
+      version: 0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3
     vue:
       specifier: ^3.5.26
       version: 3.5.26
@@ -18,8 +18,8 @@ catalogs:
 
 overrides:
   '@vitejs/plugin-vue': workspace:*
-  vite: npm:@voidzero-dev/vite-plus-core@latest
-  vitest: npm:@voidzero-dev/vite-plus-test@latest
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3
+  vitest: npm:@voidzero-dev/vite-plus-test@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3
 
 importers:
 
@@ -51,7 +51,7 @@ importers:
         version: 1.6.0(conventional-commits-filter@5.0.0)
       '@voidzero-dev/vite-plus':
         specifier: 'catalog:'
-        version: 0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)
+        version: 0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)
       eslint:
         specifier: ^9.39.2
         version: 9.39.2(jiti@2.6.1)
@@ -101,11 +101,11 @@ importers:
         specifier: ^8.50.1
         version: 8.50.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       vite:
-        specifier: npm:@voidzero-dev/vite-plus-core@latest
-        version: '@voidzero-dev/vite-plus-core@0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)'
+        specifier: npm:@voidzero-dev/vite-plus-core@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3
+        version: '@voidzero-dev/vite-plus-core@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)'
       vitest:
-        specifier: npm:@voidzero-dev/vite-plus-test@latest
-        version: '@voidzero-dev/vite-plus-test@0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)'
+        specifier: npm:@voidzero-dev/vite-plus-test@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3
+        version: '@voidzero-dev/vite-plus-test@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)'
       vue:
         specifier: 'catalog:'
         version: 3.5.26(typescript@5.9.3)
@@ -116,8 +116,8 @@ importers:
         specifier: 1.0.0-beta.56
         version: 1.0.0-beta.56
       vite:
-        specifier: npm:@voidzero-dev/vite-plus-core@latest
-        version: '@voidzero-dev/vite-plus-core@0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)'
+        specifier: npm:@voidzero-dev/vite-plus-core@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3
+        version: '@voidzero-dev/vite-plus-core@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)'
     devDependencies:
       '@jridgewell/gen-mapping':
         specifier: ^0.3.13
@@ -127,7 +127,7 @@ importers:
         version: 0.3.31
       '@voidzero-dev/vite-plus':
         specifier: 'catalog:'
-        version: 0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)
+        version: 0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)
       obug:
         specifier: ^2.1.1
         version: 2.1.1
@@ -162,12 +162,12 @@ importers:
         specifier: ^2.0.1
         version: 2.0.1(@babel/core@7.28.5)
       vite:
-        specifier: npm:@voidzero-dev/vite-plus-core@latest
-        version: '@voidzero-dev/vite-plus-core@0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)'
+        specifier: npm:@voidzero-dev/vite-plus-core@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3
+        version: '@voidzero-dev/vite-plus-core@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)'
     devDependencies:
       '@voidzero-dev/vite-plus':
         specifier: 'catalog:'
-        version: 0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)
+        version: 0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)
 
   playground:
     devDependencies:
@@ -2024,8 +2024,8 @@ packages:
   '@vitejs/release-scripts@1.6.0':
     resolution: {integrity: sha512-XV+w22Fvn+wqDtEkz8nQIJzvmRVSh90c2xvOO7cX9fkX8+39ZJpYRiXDIRJG1JRnF8khm1rHjulid+l+khc7TQ==}
 
-  '@voidzero-dev/vite-plus-core@0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7':
-    resolution: {integrity: sha512-0a2FPzxBlrnf0qBi1C6MnKGsD4RHqT283fI9umBoO6wYywk6sChMTDi9sUc12YxrfjEArFbGkWU4MBmYAZ4zjQ==, tarball: https://npm.pkg.github.com/download/@voidzero-dev/vite-plus-core/0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7/d74e8a6abb872b8dcd48044de239627cd8344eee}
+  '@voidzero-dev/vite-plus-core@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3':
+    resolution: {integrity: sha512-Qwrnd4lV3lpZdjk0pJkV+iAgJaLTDTU1ZRFDrL7fu2l5gN3OEjxCi/v04de50hyX313RdTBVZ5EAp1Zh6uJ+5g==, tarball: https://npm.pkg.github.com/download/@voidzero-dev/vite-plus-core/0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3/360cb280f200df8d4960169a08bd6fc2beae7279}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       '@arethetypeswrong/core': ^0.18.1
@@ -2081,8 +2081,8 @@ packages:
       yaml:
         optional: true
 
-  '@voidzero-dev/vite-plus-test@0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7':
-    resolution: {integrity: sha512-rKMyu1HuUf3iyh6o7go0AadEapI8DMUh4IExrCPLw+YtWD7aWaQVofItBI7ap5fY+jt7VwJUeGDkOyUlhGkysg==, tarball: https://npm.pkg.github.com/download/@voidzero-dev/vite-plus-test/0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7/1bc8be1ab5f7d78ec66cce2f88bcd07712817886}
+  '@voidzero-dev/vite-plus-test@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3':
+    resolution: {integrity: sha512-B5Cjw9RR0ITGc7ryWsCdfLEeqI/A4ccRU5Mx5QbVKwcv2wbxYoOrAZfwXg6GVPWftfvVVYlTENbZFfulqOKv4Q==, tarball: https://npm.pkg.github.com/download/@voidzero-dev/vite-plus-test/0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3/5a0d191ec6c144319046f481d9807af081b4f43c}
     engines: {node: ^20.0.0 || ^22.0.0 || >=24.0.0}
     peerDependencies:
       '@edge-runtime/vm': '*'
@@ -2105,8 +2105,8 @@ packages:
       jsdom:
         optional: true
 
-  '@voidzero-dev/vite-plus@0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7':
-    resolution: {integrity: sha512-/Koo1PaPSyCUb2dRIYtBud2qVzFZo6QhQdeRf525vB4kfaQpemdBRU9vgeKpWZFNyyVSU2//ZhXMl1dNI6o/IQ==, tarball: https://npm.pkg.github.com/download/@voidzero-dev/vite-plus/0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7/9b809ed8c5e7caa0c2a44b7c3b2df1975bc5d2ae}
+  '@voidzero-dev/vite-plus@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3':
+    resolution: {integrity: sha512-mSZhH/HMfseFCOGAHJVBrgW4riQ79RbJZZiEkIFGZDixnL+f0cX4cafn2mr46Yv8dkSR6kmZL1Qr1XcgI+el3A==, tarball: https://npm.pkg.github.com/download/@voidzero-dev/vite-plus/0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3/e190b59c8e2040f6db9f910262cfa04eafdfab81}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
@@ -5489,7 +5489,7 @@ snapshots:
       '@tailwindcss/node': 4.1.18
       '@tailwindcss/oxide': 4.1.18
       tailwindcss: 4.1.18
-      vite: '@voidzero-dev/vite-plus-core@0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)'
+      vite: '@voidzero-dev/vite-plus-core@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)'
     transitivePeerDependencies:
       - '@arethetypeswrong/core'
       - '@types/node'
@@ -5772,7 +5772,7 @@ snapshots:
       magic-string: 0.30.21
       regenerator-runtime: 0.14.1
       systemjs: 6.15.1
-      vite: '@voidzero-dev/vite-plus-core@0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)'
+      vite: '@voidzero-dev/vite-plus-core@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)'
     transitivePeerDependencies:
       - '@arethetypeswrong/core'
       - '@types/node'
@@ -5805,7 +5805,7 @@ snapshots:
     transitivePeerDependencies:
       - conventional-commits-filter
 
-  '@voidzero-dev/vite-plus-core@0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)':
+  '@voidzero-dev/vite-plus-core@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)':
     dependencies:
       '@babel/generator': 7.28.5
       '@babel/parser': 7.28.5
@@ -5828,10 +5828,10 @@ snapshots:
       typescript: 5.9.3
       yaml: 2.8.2
 
-  '@voidzero-dev/vite-plus-test@0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)':
+  '@voidzero-dev/vite-plus-test@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)':
     dependencies:
       '@types/chai': 5.2.3
-      '@voidzero-dev/vite-plus-core': 0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)
+      '@voidzero-dev/vite-plus-core': 0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)
       es-module-lexer: 1.7.0
       expect-type: 1.2.2
       obug: 2.1.1
@@ -5866,10 +5866,10 @@ snapshots:
       - utf-8-validate
       - yaml
 
-  '@voidzero-dev/vite-plus@0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)':
+  '@voidzero-dev/vite-plus@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)':
     dependencies:
-      '@voidzero-dev/vite-plus-core': 0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)
-      '@voidzero-dev/vite-plus-test': 0.0.0-aa1a9791837714a9920c5bbe9738fca41aa26de7(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)
+      '@voidzero-dev/vite-plus-core': 0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)
+      '@voidzero-dev/vite-plus-test': 0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3(@types/node@24.10.4)(jiti@2.6.1)(less@4.5.1)(publint@0.3.15)(sass@1.97.1)(stylus@0.64.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)
       cac: 6.7.14
       oxfmt: 0.16.0
       oxlint: 1.36.0(oxlint-tsgolint@0.8.6)

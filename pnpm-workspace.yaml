@@ -4,10 +4,10 @@ packages:
 
 catalog:
   'vue': ^3.5.26
-  'vite': npm:@voidzero-dev/vite-plus-core@latest
+  'vite': npm:@voidzero-dev/vite-plus-core@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3
   'vue-router': ^4.6.4
-  vitest: npm:@voidzero-dev/vite-plus-test@latest
-  '@voidzero-dev/vite-plus': latest
+  vitest: npm:@voidzero-dev/vite-plus-test@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3
+  '@voidzero-dev/vite-plus': 0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3
 
 catalogs:
   rolldown-vite:
