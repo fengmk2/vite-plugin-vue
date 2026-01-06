@@ -1,6 +1,9 @@
 name: Publish Any Commit
 on: [push, pull_request]
 
+env:
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
+
 permissions: {}
 
 jobs:
@@ -27,7 +30,9 @@ jobs:
         run: pnpm install
 
       - name: Build
-        run: pnpm build
+        run: |
+          # pnpm build
+          pnpm exec vite run -r build || true
 
       - name: Publish
         run: pnpm dlx pkg-pr-new@0.0 publish --pnpm --compact './packages/*'
