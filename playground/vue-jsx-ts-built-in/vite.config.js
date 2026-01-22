@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite'
-import * as vite from 'vite'
+import { defineConfig } from 'vite-plus'
+import * as vite from 'vite-plus'
 import vueJsxPlugin from '@vitejs/plugin-vue-jsx'
 import vuePlugin from '@vitejs/plugin-vue'
 import babelPluginSyntaxDecorators from '@babel/plugin-syntax-decorators'

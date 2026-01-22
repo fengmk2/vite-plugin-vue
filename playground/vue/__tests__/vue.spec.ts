@@ -1,6 +1,6 @@
-import { describe, expect, test } from 'vitest'
+import { describe, expect, test } from 'vite-plus/test'
 import { version } from 'vue'
-import * as vite from 'vite'
+import * as vite from 'vite-plus'
 import {
   browserLogs,
   editFile,
