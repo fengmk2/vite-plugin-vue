@@ -25,11 +25,11 @@
     "lint": "eslint --cache .",
     "typecheck": "tsgo -p scripts --noEmit && tsgo -p playground --noEmit",
     "test": "pnpm test-serve && pnpm test-build",
-    "test-serve": "vitest run -c vitest.config.e2e.ts",
-    "test-build": "VITE_TEST_BUILD=1 vitest run -c vitest.config.e2e.ts",
+    "test-serve": "vite test run -c vitest.config.e2e.ts",
+    "test-build": "VITE_TEST_BUILD=1 vite test run -c vitest.config.e2e.ts",
     "test-build-without-plugin-commonjs": "VITE_TEST_WITHOUT_PLUGIN_COMMONJS=1 pnpm test-build",
-    "debug-serve": "VITE_DEBUG_SERVE=1 vitest run -c vitest.config.e2e.ts",
-    "debug-build": "VITE_TEST_BUILD=1 VITE_PRESERVE_BUILD_ARTIFACTS=1 vitest run -c vitest.config.e2e.ts",
+    "debug-serve": "VITE_DEBUG_SERVE=1 vite test run -c vitest.config.e2e.ts",
+    "debug-build": "VITE_TEST_BUILD=1 VITE_PRESERVE_BUILD_ARTIFACTS=1 vite test run -c vitest.config.e2e.ts",
     "build": "pnpm -r --filter='./packages/*' run build",
     "dev": "pnpm -r --parallel --filter='./packages/*' run dev",
     "release": "tsx scripts/release.ts",
@@ -61,8 +61,9 @@
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.50.1",
     "vite": "catalog:",
-    "vitest": "^4.0.16",
-    "vue": "catalog:"
+    "vitest": "catalog:",
+    "vue": "catalog:",
+    "vite-plus": "catalog:"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec lint-staged --concurrent false"
